@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Personal Portfolio Website - Easy Tutorials</title>
+     <link rel = "stylesheet" href = "style.css">
+     <link rel="icon" href="https://image.shutterstock.com/image-vector/portfolio-word-banner-vector-illustration-260nw-1200433627.jpg" type="image/x-icon">
+</head>
+<body>
+
+     <!-- Header Section -->
+     <div id="header">
+          <div class="container">
+               <nav>
+                    <!-- <h1 class = "logo">Hii, I'm Anjali Singh</h1> -->
+                    <!-- <img src = "images/logo.jpg" class = "logo"> -->
+                    <ul id = "sidemenu">
+                         <li><a href = "#header">Home</a></li>
+                         <li><a href = "#about">About</a></li>
+                         <li><a href = "#services">Services</a></li>
+                         <li><a href = "#portfolio">Portfolio</a></li>
+                         <li><a href = "#contact">Contact</a></li>
+                        <img src = "https://icon-library.com/images/cross-png-icon/cross-png-icon-6.jpg"  onclick = "closemenu()">
+                    </ul>
+                    <img src = "https://cdn2.iconfinder.com/data/icons/weby-interface-vol-2/512/weby_menu-navigation-512.png"  onclick = "openmenu()" style="margin-left: 100%;">
+               </nav>
+
+               <div class="header-text">
+                    <h1>Hi, I'm Anjali <span>Kumari </span></h1>
+                    <p>Software <span> Developer</span></p>
+               </div>
+          </div>
+     </div>
+
+     <!-- About Section -->    
+     <div id="about">
+          <div class="container">
+               <div class="row">
+                    <div class="about-col-1">
+                         <img src = "images/user.jpg">
+                    </div>
+
+                    <div class="about-col-2">
+                         <h1 class = "subtitles">About Me</h1><br>
+                         <p>I  am  Anjali  Kumari, persuing  BCA  from
+                              LND COLLEGE.  I  have  Knowledge  of 
+                              Front-End  development  related  languages 
+                              HTML, CSS, JAVASCRIPT.  I  have  also  learned 
+                              object-oriented  languages  Python  and  C++ with DSA.
+                              I  am  very  interested  in  software  technology,
+                              and  web  development . That's  why  i  always  curious
+                              to  learn  new  things.                        
+                         </p><br>
+
+                         <div class="tab-titles">
+                              <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                              <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                              <p class = "tab-links" onclick="opentab('education')">Education</p>    
+                         </div>
+
+                         <div class="tab-contents active-tab" id = "skills">
+                              <ul>
+                                   <li><span>Web Developmemt</span><br>Website Designing</li><br>
+                                   <li><span>Competitive Programming</span><br>Solved More than 100 Questions 
+                                        on different coding platforms</li><br>
+                                   <li><span>DSA</span><br>DSA With C++</li><br>
+                                   <li><span>Python</span><br>Python basics and AI</li><br>
+                                   <li><span>Django</span><br>Django Framework with Python</li><br>
+                              </ul>
+                         </div>
+
+
+                         <div class="tab-contents" id="education">
+                              <ul>
+                                   <li><span>2018 - 2019</span><br>10<sup>th</sup> From MJK Girls High School</li><br>
+                                   <li><span>2019 - 2021 </span><br>12<sup>th</sup> From MJK Inter College</li><br>
+                                   <li><span>2021 - current </span><br>BCA, From LND COLLEGE</li><br>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- --------------------------Services-------------------------------->
+     <div id="services">
+          <div class="container">
+               <h1 class = "subtitles">My services</h1>
+
+               <div class="services-list">
+                    <div>
+                         <img src = "https://cdn3.iconfinder.com/data/icons/glyph/227/Code-512.png" height = "50px" width = "50px"><br><br>
+                         <h2>Web Design</h2><br>
+                         <p>It includes Creating website layout,designing web pages</p>
+                         <a href = "#">Learn more</a>
+                    </div>
+
+                    <div>
+                         <img src = "https://logos-world.net/wp-content/uploads/2021/02/App-Store-Logo.png" height ="60px" width = "90px"><br><br>
+                         <h2>Software Development</h2><br>
+                         <p>It includes developing effective and user-friendly websites</p>
+                         <a href = "#">Learn more</a>
+                    </div>
+
+                    <div>
+                         <img src = "https://www.freeiconspng.com/uploads/website-icon-15.jpg" height ="60px" width = "90px"><br><br>
+                         <h2>customize websites</h2><br>
+                         <p>It includes creating websites for particular persons aur organisations individually.</p>
+                         <a href = "#">Learn more</a>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- ----------------------Portfolio---------------------------------->
+     <div id="portfolio">
+          <div class="container">
+               <h2 class = "subtitles">My Work</h2>
+               <div class="work-list">
+                    <div class="work">
+                         <img src = "images/work-1.png">
+                         <div class="layer">
+                              <h3>Social media Website</h3>
+                              <p>The site connects you to the talented people around the world.
+                                   search it on any search engine 
+                              </p>
+                              <a href = "https://github.com/anjali-1s/project1">Github</a>
+                         </div>
+                    </div>
+
+                    <div class="work">
+                         <img src = "images/work-2.png">
+                         <div class="layer">
+                              <h3>Online Shopping Website</h3>
+                              <p>The site provide you a better online shopping experience at your home </p>
+                              <a href = "https://github.com/anjali-1s/project1">Github</a>
+                         </div>
+                    </div>
+
+                    <div class="work">
+                         <img src = "images/work-3.png">
+                         <div class="layer">
+                              <h3>Music Website</h3>
+                              <p>The site gives you a peaceful moments in your relax time</p>
+                              <a href = "https://github.com/anjali-1s/project1">Github</a>
+                         </div>
+                    </div>
+               </div>
+
+               <a href = "#" class = "btn">See more</a>
+          </div>
+     </div>
+
+
+     <!-- --------------------------------contact----------------------------------------------->
+     <div class="contact" id = "contact">
+          <div class="container">
+               <div class="row">
+                    <div class="contact-left">
+                         <h1 class = "subtitles">Contact Me</h1>
+                         <p><img src = "https://cdn1.iconfinder.com/data/icons/unigrid-flat-multimedia-vol-4/90/020_187_send_mail_email_envelope_message-1024.png">singhanjali83261@gmail.com</p>
+                         <p><img src = " https://th.bing.com/th/id/R.7168460c2375f253e7b7044f11631856?rik=ZEaX%2fDVLg7RbKQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f7ia%2foXB%2f7iaoXBq5T.jpg&ehk=TdjZicFqaVNMSm38xNBmEUJzTKk0w9sgfHXSkb2W5D0%3d&risl=&pid=ImgRaw&r=0">7782968335</p>
+
+                         <div class="social-icons">
+                              <a href = "https://www.instagram.com/anjali_singh_1106">
+                                   <img src = "https://th.bing.com/th/id/OIP.0wjhvLpjGf_-r-1lqG3QAQHaHw?rs=1&pid=ImgDetMain">
+                              </a>
+
+                              <a href = "https://github.com/anjali-1s">
+                                   <img src = "https://cdn3.iconfinder.com/data/icons/social-network-round-gloss-shine/512/GitHub_Social-Network-Communicate-Page-Curl-Effect-Circle-Glossy-Shadow-Shine.png">
+                              </a>
+
+                              <a href = "https://www.linkedin.com/AnjaliSingh">
+                                   <img src = "https://th.bing.com/th/id/OIP.waOtRAV99hCXTCS_RvbK6QHaGp?rs=1&pid=ImgDetMain">
+                              </a>
+                         </div>
+                              <a href = "http://127.0.0.1:5500/index2.html"  download class = "btn btn2">Download CV</a>
+                    </div>
+
+                    <div class = "contact-right">
+                              <form id = "submit-to-google-sheet">
+                                   <input type="text" name="Name" placeholder="Your Name" required>
+                                   <input type="email" name="Email" placeholder="Your Email" required>
+                                   <textarea name = "Message" rows="6" placeholder="Your message"></textarea>
+                                   <button type = "submit" class = "btn btn2">Submit</button>
+                              </form>
+
+                              <span id = "msg"></span>
+                    </div>
+               </div>
+          </div>
+
+          <div class="copyright">
+               <p>Copyright &#169 Anjali Singh.</p>
+               <p>All rights reserved.</p>
+          </div>
+     </div>
+
+     <!-- -------------------------Functioning through JS--------------------------------------->
+     <script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+          
+          function opentab(tabname){
+               for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+               }
+
+               for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+               }
+
+               event.currentTarget.classList.add("active-link");
+               document.getElementById(tabname).classList.add("active-tab");
+          }
+     </script>
+
+     <!-- -------------------------------functioning for nav bar-------------------------------------------->
+     <script>
+          var sidemeu = document.getElementById("sidemenu");
+
+          function openmenu(){
+               sidemeu.style.right = "0";
+          }
+
+          function closemenu(){
+               sidemeu.style.right = "-200px";
+          }
+     </script>
+
+<!-- --------------------Google sheet---------------- -->
+<script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbxlLHppEWyo0_AREqByGuLCi4xGVNyYA3UfJa6L98C5-qGzH3B28VI_qEfbtdSGosOroA/exec'
+     const form = document.forms['submit-to-google-sheet']
+     const msg = document.getElementById("msg")
+
+
+     form.addEventListener('submit', e => {
+       e.preventDefault()
+       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+         .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+               msg.innerHTML = ""
+          },5000)
+          form.reset()
+         })
+         .catch(error => console.error('Error!', error.message))
+     })
+</script>
+
+</body>
+</html>
